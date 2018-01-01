@@ -1,4 +1,4 @@
-# timestamp-joeyhage
+# timestamp-microservice
 
 A timestamp microservice for FreeCodeCamp Back End Development Certification.
 
