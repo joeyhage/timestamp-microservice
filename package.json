@@ -1,17 +1,21 @@
 {
   "name": "timestamp-joeyhage",
-  "dependencies": {
-    "express": "^4.14.0"
-  },
+  "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "engines": {
-    "node": "4.4.5"
-  },
   "repository": {
     "type": "git",
-    "url": "https://idontknow/todo.git"
+    "url": "git+https://github.com/joeyhage/timestamp-microservice.git"
+  },
+  "author": "Joey Hage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeyhage/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/joeyhage/timestamp-microservice#readme",
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
