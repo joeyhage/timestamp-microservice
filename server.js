@@ -9,7 +9,7 @@ app.route('/*').get((req, res) => {
   const response = {unix: null, natural: null};
   
   try {
-    const date = new Date(unix || dateString);
+    const date = new Date(unix ? unix * 1000 : dateString);
     const unixMilliseconds = Number(date) / 1000;
     const humanReadable = toHumanReadableFormat(date);
     if (!Number.isNaN(date) && !Number.isNaN(unixMilliseconds) && humanReadable) {
